@@ -3,8 +3,8 @@
     
     
     <entry>
-        <title><![CDATA[逻辑图解Spark wordCount过程]]></title>
-        <url>http://6high.top/2018/03/10/%E5%9B%BE%E8%A7%A3Spark%20wordCount%E8%BF%87%E7%A8%8B/</url>
+        <title><![CDATA[图解Spark wordCount]]></title>
+        <url>http://6high.top/2018/03/10/%E5%9B%BE%E8%A7%A3Spark%20wordCount/</url>
         <content type="html"><![CDATA[<p>学习每一门新的语言都会先学习一个<code>helloworld</code>程序,而<a href="http://spark.apache.org/" target="_blank" rel="noopener">Spark官网</a>将world count作为一个入门程序,本屌也是一个spark菜鸟,那么就从一个word count开始吧!</p>
 <p>==本文旨在用图解数据流程的方式帮助Spark新手理解RDD分区和基本算子==</p>
 <h3 id="1-程序及数据文件"><a href="#1-程序及数据文件" class="headerlink" title="1.程序及数据文件"></a>1.程序及数据文件</h3><p>首先我们先填写一个包含单词的文件<code>helloSpark</code>,内容如下：</p>
