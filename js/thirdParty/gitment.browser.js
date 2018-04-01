@@ -4962,7 +4962,8 @@ var Gitment = function () {
 
     this.defaultTheme = _default2.default;
     (0, _assign2.default)(this, {
-      id: window.location.href,
+    //   id: window.location.href,
+      id: window.location.pathname,
       title: window.document.title,
       link: window.location.href,
       desc: '',
@@ -5091,8 +5092,7 @@ var Gitment = function () {
 
       return _utils.http.post('/repos/' + owner + '/' + repo + '/issues', {
         title: title,
-        // labels: labels,
-        labels: title,
+        labels: labels,
         body: link + '\n\n' + desc
       }).then(function (meta) {
         _this5.state.meta = meta;
