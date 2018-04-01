@@ -21,7 +21,7 @@
 <li>如果需要将它们<strong>作为参数</strong>传递，请使用<code>function</code>;</li>
 <li>如果你想要对其实例进行操作，请使用<code>function</code>，例如:<code>f1.compose(f2)(2)</code>;</li>
 <li>如果你想使用参数的默认值例如使用<code>method</code>，例如:<code>def m1(age: Int = 2)</code>;</li>
-<li>如果你只需要计算并返回，请使用<code>method</code>;</li>
+<li>如果你只需要计算并返回的功能，请使用<code>method</code>;</li>
 <li>如果你需要抛出异常,请使用<code>method</code>,例如:</li>
 </ol>
 <figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@throws</span>(classOf[<span class="type">Exception</span>])</span><br><span class="line"><span class="keyword">override</span> <span class="function"><span class="keyword">def</span> <span class="title">play</span> </span>&#123;</span><br><span class="line">  <span class="comment">// exception throwing code here ...</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
