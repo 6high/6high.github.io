@@ -339,6 +339,23 @@
 
 
 
+
+  <div id="gitment_container"></div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+  var gitment = new Gitment({
+      id: 'Sat Mar 10 2018 00:00:00 GMT+0800',
+      owner: '6high',
+      repo: '6high.github.io',
+      oauth: {
+          client_id: '4f5b46aa373e98aef081',
+          client_secret: 'b3c681e47eff7a54549b09b0d42a439fa9addf57',
+      },
+  })
+  gitment.render('gitment_container')
+  </script>
+
     </div>
     
 </div>
