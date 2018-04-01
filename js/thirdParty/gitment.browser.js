@@ -4963,7 +4963,7 @@ var Gitment = function () {
     this.defaultTheme = _default2.default;
     (0, _assign2.default)(this, {
     //   id: window.location.href,
-      id: window.location.pathname,
+      id: window.document.title,
       title: window.document.title,
       link: window.location.href,
       desc: '',
