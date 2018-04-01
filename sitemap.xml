@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://6high.top/2017/05/16/hello-world/</loc>
+    
+    <lastmod>2018-04-01T15:53:16.896Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://6high.top/2018/04/01/Difference-between-function-and-method-in-scala/</loc>
     
     <lastmod>2018-04-01T15:27:28.755Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://6high.top/2018/03/10/%E5%9B%BE%E8%A7%A3Spark%20wordCount/</loc>
     
     <lastmod>2018-03-20T12:20:06.343Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://6high.top/2017/05/16/hello-world/</loc>
-    
-    <lastmod>2018-03-13T11:12:54.369Z</lastmod>
     
   </url>
   
