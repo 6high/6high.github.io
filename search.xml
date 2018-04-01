@@ -135,8 +135,7 @@
     <entry>
         <title></title>
         <url>http://6high.top/baidu_verify_ZHtXivqYoC.html</url>
-        <content type="html"><![CDATA[ZHtXivqYoC
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+        <content type="html"><![CDATA[<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -150,7 +149,9 @@
   </style>
 </head>
 <body>
-<p class="p1"><span class="s1">ZHtXivqYoC</span></p>
+<p class="p1"><span class="s1">layout: false
+  ---
+  ZHtXivqYoC</span></p>
 </body>
 </html>
 ]]></content>
